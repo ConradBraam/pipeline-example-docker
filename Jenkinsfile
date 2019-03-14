@@ -1,5 +1,5 @@
 pipeline {
-    agent { node { label 'ubuntu' } // w the docker containers are hosted  
+    agent {  
            docker { image 'mine' } 
     }
     stages {
