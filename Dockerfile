@@ -14,7 +14,7 @@ COPY mbed-os-tools/ /work/mbed-os-tools/
 # ===================
 # temp
 COPY ble-cliapp-public/ /work/ble-cliapp/
-COPY mbed-os-example-ble/ /work/mbed-os-example/ble/
+COPY mbed-os-example-ble/ /work/mbed-os-example-ble/
 
 # ------------------------------------------------------------------------------
 # Labels
