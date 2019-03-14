@@ -11,7 +11,7 @@ pipeline {
                 sh 'mbed --version'
 				sh 'pwd'
 				sh 'printenv'
-				sh 'find / -type d -name 'mbed-os-example-ble'
+				sh 'find / -type d -name "mbed-os-example-ble"'
 				// /home/jenkins/workspace/pipeline-play
             }
         } // stage for debugging what is being passed in and environment
